@@ -1,0 +1,68 @@
+.cmnsgn{
+    /* height: 500px;
+    width: 700px; */
+    /* border: 2px solid black; */
+    position: relative;
+    top: 100px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box{
+    height: 500px;
+    width: 700px;
+    /* border: 2px solid black; */
+    /* background-color:rgb(212, 166, 250); */
+    box-shadow: 10px 20px 40px rgba(0, 0, 0, 0.438);
+    background: rgb(119,70,187);
+    background: linear-gradient(90deg, rgba(119,70,187,1) 10%, rgba(53,227,218,1) 92%);    border-radius: 10px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* position: relative;
+    top: 60px;
+    margin-bottom: 10px; */
+}
+.btnsign{
+    width: 400px;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    font-size:  20px;
+    color: rgb(255, 255, 255);
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);}
+    
+
+.btnsign:hover{
+    animation: stretch 0.5s  ease-in-out 1 ;
+}
+
+@keyframes stretch{
+
+    0%{
+        transform: scaleX(1);
+        
+        
+    }
+    
+    
+    50%{
+        transform: scaleX(1.1);
+        
+    }
+    75%{
+        transform: scaleX(0.9);
+        
+    }
+    
+    100%{
+        
+        transform: scaleX(1);
+    }
+
+}

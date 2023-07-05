@@ -1,0 +1,72 @@
+.footer{
+
+    display: flex;
+    height: 200px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: rgb(49, 10, 99);
+    justify-content: space-between;
+    position:relative;
+    width:100%;
+    z-index:200;
+    margin-left:-20px;
+    padding-right:30px;
+    bottom:0;
+}
+
+.upper{
+    margin: 2px;
+    display: flex;
+    align-items: center;
+     justify-content: center; 
+     align-items: center;
+}
+
+
+.social{
+    background-color: transparent;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.social span{
+    background-color: transparent;
+    color: thistle;
+    font-weight: 800;
+    font-size: 28px;
+    margin-left:50px;
+    margin-right:50px;
+}
+.social p{
+    background-color: transparent;
+    color: rgb(255, 254, 255);
+    text-align: justify;
+    width:400px;
+}
+ .icon{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-right:100px;
+    width:200px;
+}
+.lower{
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.lower span {
+    background-color: transparent;
+    color: white;
+}
+.lower a{
+    text-decoration: none;
+    color: white;
+    margin-left: 10px;
+    background-color: transparent;
+    margin-right:20px;
+    padding:10px;
+}
